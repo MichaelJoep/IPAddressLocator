@@ -1,0 +1,38 @@
+{
+"ip_address":"197.210.28.113",
+"city":"Lagos",
+"city_geoname_id":2332459,
+"region":"Lagos",
+"region_iso_code":"LA",
+"region_geoname_id":2332453,
+"postal_code":null,
+"country":"Nigeria",
+"country_code":"NG",
+"country_geoname_id":2328926,
+"country_is_eu":false,
+"continent":"Africa",
+"continent_code":"AF",
+"continent_geoname_id":6255146,
+"longitude":3.3903,
+"latitude":6.4474,
+"security":{"is_vpn":false},
+"timezone":{
+    "name":"Africa/Lagos",
+    "abbreviation":"WAT",
+    "gmt_offset":1,
+    "current_time":"12:54:36",
+    "is_dst":false},
+"flag":{
+    "emoji":"🇳🇬",
+    "unicode":"U+1F1F3 U+1F1EC",
+    "png":"https://static.abstractapi.com/country-flags/NG_flag.png",
+    "svg":"https://static.abstractapi.com/country-flags/NG_flag.svg"},
+"currency":{"currency_name":"Naira","currency_code":"NGN"},
+"connection":{
+    "autonomous_system_number":29465,
+    "autonomous_system_organization":"MTN NIGERIA Communication limited",
+    "connection_type":"Cellular",
+    "isp_name":"Reserved Enterprice-Internet-LAN-3GFW",
+    "organization_name":null
+    }
+}

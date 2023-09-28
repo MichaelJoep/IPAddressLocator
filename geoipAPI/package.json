@@ -1,0 +1,24 @@
+{
+  "name": "geoipapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sasmeee/ip-locator": "^1.1.8",
+    "client-device-ip-details": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "local-devices": "^4.0.0",
+    "nodemon": "^3.0.1",
+    "visitorapi": "^2.0.0"
+  }
+}
