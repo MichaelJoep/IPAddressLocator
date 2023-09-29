@@ -3,6 +3,7 @@ const axios = require("axios");
 //const os = require("os");
 const dotenv = require("dotenv")
 const localIP   =  require("ip");
+const getMac = require("getmac")
 
 
 dotenv.config({path: './config.env'});
@@ -20,10 +21,13 @@ exports.getUserInfo = async (req, res) => {
     try {
         const deviceIP = localIP.address();
 
+        const currentMac = getMac.default()
+
 
         const getGeoipInfo = await sendAPIRequest(deviceIP)
         res.status(200).json({
             "device IP is ": deviceIP,
+            "MAC Address": currentMac,
             ...getGeoipInfo
         });
 
